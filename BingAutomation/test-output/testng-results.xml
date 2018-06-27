@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12072" started-at="2018-06-27T06:43:26Z" finished-at="2018-06-27T06:43:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12072" started-at="2018-06-27T06:43:26Z" finished-at="2018-06-27T06:43:38Z">
+      <class name="com.BingTranslationAuto.BingAutomation.AppTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.BingTranslationAuto.BingAutomation.AppTest@19f379]" name="beforeClass" is-config="true" duration-ms="10196" started-at="2018-06-27T12:13:26Z" finished-at="2018-06-27T12:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="InputDrop()[pri:0, instance:com.BingTranslationAuto.BingAutomation.AppTest@19f379]" name="InputDrop" duration-ms="173" started-at="2018-06-27T12:13:37Z" finished-at="2018-06-27T12:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputDrop -->
+        <test-method status="PASS" signature="OutputDrop()[pri:1, instance:com.BingTranslationAuto.BingAutomation.AppTest@19f379]" name="OutputDrop" duration-ms="114" started-at="2018-06-27T12:13:37Z" finished-at="2018-06-27T12:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutputDrop -->
+        <test-method status="PASS" signature="sendText()[pri:2, instance:com.BingTranslationAuto.BingAutomation.AppTest@19f379]" name="sendText" duration-ms="1557" started-at="2018-06-27T12:13:37Z" finished-at="2018-06-27T12:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendText -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.BingTranslationAuto.BingAutomation.AppTest@19f379]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-06-27T12:13:38Z" finished-at="2018-06-27T12:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.BingTranslationAuto.BingAutomation.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
