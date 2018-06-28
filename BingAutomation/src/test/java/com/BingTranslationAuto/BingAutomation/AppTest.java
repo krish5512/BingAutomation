@@ -26,8 +26,8 @@ public class AppTest {
  }
   
  @Test (priority = 3)
- public void checkTranslation() {
-	Assert.assertFalse(appObject.translation());
+ public void checkTranslation() throws InterruptedException {
+	Assert.assertTrue(appObject.translation());
  }
 	
   @BeforeClass
