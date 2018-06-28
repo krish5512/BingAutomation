@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 public class App 
 {
 	static WebDriver driver;
+	String translatedText;
+	Boolean condi = false;
 	
 	
 	public void inputSelection() {
@@ -41,16 +43,14 @@ public class App
 driver.findElement(By.id("t_sv")).sendKeys("Hola");		
 	}
 
-	public boolean translation() {
-String translatedText = driver.findElement(By.id("t_tv")).getText();
-if(translatedText.equals("Hello"))
-{
-	return true;
-}
-else
-{
-	return false;
-}
+	public boolean translation() throws InterruptedException {
+Thread.sleep(10000);
+		WebElement translatedtext = driver.findElement(By.id("t_tv"));
+		System.out.println(translatedtext.getAttribute("value").toString());
+		String translateText = translatedtext.getAttribute("value");
+		if(translateText.equals("Hello"))
+			condi = true;
+		return condi;
 	}
 	
 	
